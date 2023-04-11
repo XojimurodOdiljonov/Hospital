@@ -1,0 +1,34 @@
+﻿body {
+
+}
+
+.T{
+    text-align: center;
+    color: white;
+    transition: 0.3s linear;
+}
+
+
+.T:hover{
+    color: #aef4fd;
+}
+
+
+.form-label{
+    color: white;
+    transition: 0.3s linear;
+}
+
+.form-label:hover{
+    color: #aef4fd;
+}
+
+.form-check-label{
+    color: white;
+    transition: 0.3s linear;
+}
+
+.form-check-label:hover{
+    color: #aef4fd;
+}
+

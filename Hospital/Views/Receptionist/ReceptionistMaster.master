@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReceptionistMaster.master.cs" Inherits="Hospital.Views.Receptionist.ReceptionistMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="../../Libs/Bootstrap/css/bootstrap.min.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Поликлиника</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="">Докторы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Лаборатория</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Секретарь</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Guest/Home.aspx">Выход из системы</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Mybody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
